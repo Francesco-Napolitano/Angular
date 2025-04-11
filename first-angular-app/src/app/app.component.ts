@@ -7,7 +7,9 @@ import { HomeComponent } from './home/home.component';
   selector: 'app-root',
   imports: [HomeComponent, HeaderComponent],
   template:` <app-header/>
-              <app-home/>
+  <main>
+    <app-home/>
+  </main>
   `,
   styleUrl: './app.component.css'
 })
