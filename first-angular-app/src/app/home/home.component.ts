@@ -9,7 +9,7 @@ import { CounterComponent } from '../components/counter/counter.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  homeMessage = signal('Hello, world!')
+  homeMessage = signal('Hello, Giuseppe Cruciani!')
   
   keyUpHandler(event: KeyboardEvent){
     console.log(`user typed something in the input: ${event.key} #FREEBOSSETTI`)
