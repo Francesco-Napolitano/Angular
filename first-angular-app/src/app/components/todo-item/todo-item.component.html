@@ -8,6 +8,6 @@
     (change)="this.todoClicked()"
   />
   <p id="todo-{{ todo().id }}">
-    {{ todo().title }}
+    {{ todo().title | uppercase }}
   </p>
 </li>
